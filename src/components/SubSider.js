@@ -13,18 +13,21 @@ const SubSider = () => {
     <div className="w-2/5 bg-primary border-r border-r-gray-200">
       <div className="flex border-b border-b-gray-200 px-8 py-6 items-center justify-between">
         <div className="flex flex-row items-center">
-          <div className="border bg-white border-gray-200 rounded-lg p-2">
-            <MdMenu size={22} className="fill-icon" />
-          </div>
+          <MdMenu
+            size={40}
+            className="fill-icon border border-gray-200 bg-white rounded-lg p-2"
+          />
           <h3 className="text-xl px-4">Contacts</h3>
         </div>
         <div className="flex flex-row space-x-2">
-          <div className="bg-white border border-x-gray-200 rounded-lg p-2">
-            <MdChevronLeft size={22} className="fill-icon" />
-          </div>
-          <div className="bg-white border border-x-gray-200 rounded-lg p-2">
-            <MdChevronRight size={22} className="fill-icon" />
-          </div>
+          <MdChevronLeft
+            size={40}
+            className="fill-icon border border-gray-200 bg-white rounded-lg p-2"
+          />
+          <MdChevronRight
+            size={40}
+            className="fill-icon border border-gray-200 bg-white rounded-lg p-2"
+          />
         </div>
       </div>
       <div className="px-8 pt-7">
