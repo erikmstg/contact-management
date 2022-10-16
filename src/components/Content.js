@@ -31,7 +31,7 @@ const Content = () => {
           className="w-10 h-10 rounded-lg object-cover"
         />
       </div>
-      <div className="px-16 pt-28 container mx-auto">
+      <div className="px-16 pt-28 pb-16 container mx-auto">
         <div className="flex flex-row mx-auto justify-center">
           <img
             src="https://images.pexels.com/photos/610294/pexels-photo-610294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -41,9 +41,7 @@ const Content = () => {
           <div className="flex flex-col ml-6 space-y-5">
             <div className="flex flex-col">
               <span className="text-xl font-semibold">Johanna Stevens</span>
-              <span className="text-base text-gray-primary">
-                UI/UX Designer
-              </span>
+              <span className="text-sm text-gray-primary">UI/UX Designer</span>
             </div>
             <div className="flex flex-row items-center space-x-3">
               <div className="cursor-pointer bg-violet-500 flex flex-row items-center rounded-lg px-1">
@@ -54,7 +52,7 @@ const Content = () => {
               </div>
               <MdPhone
                 size={42}
-                className="fill-icon cursor-pointer border border-gray-200 rounded-lg p-2"
+                className="fill-icon cursor-pointer border border-gray-200 rounded-lg p-3"
               />
               <MdDriveFolderUpload
                 size={42}
@@ -80,9 +78,9 @@ const Content = () => {
             <div className="flex gap-8">
               <span className="w-2/12 text-right text-gray-primary">Email</span>
               <div className="flex flex-col w-full">
-                <div className="flex items-start">
+                <div className="flex">
                   <span className="flex-1">erikfreecss@gmail.com</span>
-                  <span className="bg-gray-second px-3 p-2 rounded-md text-gray-700 font-semibold text-xs">
+                  <span className="bg-gray-second px-3 p-1 rounded-md text-gray-700 font-semibold text-sm">
                     Primary
                   </span>
                 </div>
@@ -102,9 +100,9 @@ const Content = () => {
             <div className="flex gap-8">
               <span className="w-2/12 text-right text-gray-primary">Phone</span>
               <div className="flex flex-col w-full">
-                <div className="flex items-start justify-items-center">
+                <div className="flex">
                   <span className="flex-1">081808253226</span>
-                  <span className="bg-gray-second text-xs font-semibold rounded-md text-gray-700 px-3 p-2">
+                  <span className="bg-gray-second text-sm font-semibold rounded-md text-gray-700 px-3 p-1">
                     Primary
                   </span>
                 </div>

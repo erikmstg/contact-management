@@ -12,7 +12,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <nav className="px-5 border-r bg-white border-r-gray-200 h-screen">
+    <nav className="px-5 border-r bg-white border-r-gray-200 min-h-screen">
       <div className="bg-[#6B59CC] rounded-[14px] w-10 h-10 flex justify-center items-end mt-6">
         <MdOutlineMic size={32} color="#FFF" />
       </div>
